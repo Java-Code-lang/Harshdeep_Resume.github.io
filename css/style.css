@@ -457,8 +457,7 @@ footer .copyright{
     color:var(--ternary);
 }
 footer.h1 {
-  background-color: white;
-  color: white;
+ background: var(--light);
 }
 
 
