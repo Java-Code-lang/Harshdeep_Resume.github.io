@@ -451,7 +451,7 @@ footer .footer-logo{
 }
 
 footer .footer-socials a{
-   background:var(--primary);
+   background:var(--dark);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -469,11 +469,14 @@ footer .footer-socials a{
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
 }
+footer .footer-socials a:hover{
+    background:var(--primary);
+}
 footer .footer-socials{
 	
-    margin-bottom:3rem;
-    margin-right:-1rem;
+   display:flex;
 }
+
 footer .copyright{
     color:var(--ternary);
 }
