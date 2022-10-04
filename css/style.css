@@ -446,10 +446,14 @@ footer .footer-logo{
     margin-bottom:3rem;
     width:150px;
 }
+footer.tf{
+	color:var(--ternary);
+}
 footer .footer-socials a{
     margin-right:1rem;
 }
 footer .footer-socials{
+	background:var(--primary);
     margin-bottom:3rem;
     margin-right:-1rem;
 }
