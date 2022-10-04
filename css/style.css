@@ -7,7 +7,7 @@
     --light:#F2F2F2;
     --secondary:#070606;
 }
-h1.outro {
+footer h1.outro {
   color: white;
 }
 body{
@@ -444,13 +444,30 @@ footer{
     
     padding:5rem 0;
 }
+
 footer .footer-logo{
     margin-bottom:3rem;
     width:150px;
 }
 
 footer .footer-socials a{
-    margin-right:1rem;
+   background:var(--dark);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right:0.6rem;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
 }
 footer .footer-socials{
 	
