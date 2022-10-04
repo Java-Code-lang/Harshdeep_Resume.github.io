@@ -439,6 +439,7 @@ section.contact .btn-wrapper{
 footer{
     background:var(--dark);
     text-align: center;
+    
     padding:5rem 0;
 }
 footer .footer-logo{
@@ -454,6 +455,10 @@ footer .footer-socials{
 }
 footer .copyright{
     color:var(--ternary);
+}
+footer.h1 {
+  background-color: black;
+  color: white;
 }
 
 
