@@ -451,7 +451,7 @@ footer .footer-logo{
 }
 
 footer .footer-socials a{
-   background:var(--dark);
+   background:var(--primary);
     display:flex;
     align-items:center;
     justify-content:center;
